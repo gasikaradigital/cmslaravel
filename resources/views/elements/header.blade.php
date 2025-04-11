@@ -511,6 +511,9 @@
 							</div>
                         </div> -->
                         <ul class="navbar-nav header-right">
+						<li><a href="{{ url('dashboard')}}">Accueil</a></li>
+							<li><a href="{{ url('event')}}">Evènement</a></li>
+							<li><a href="{{ url('app-profile')}}">Profile</a></li>
 							<li class="nav-item dropdown notification_dropdown">
                                 <a class="nav-link bell dz-theme-mode" href="javascript:void(0);" aria-label="theme-mode">
 									<i id="icon-light" class="fas fa-sun"></i>
