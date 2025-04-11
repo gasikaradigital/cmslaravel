@@ -16,7 +16,7 @@ use App\Http\Controllers\VenticAdminController;
 
 
 Route::controller(VenticAdminController::class)->group(function () {
-    Route::get('/', 'event');
+    Route::get('/', 'widget-basic');
     Route::get('/index', 'dashboard')->name('dashboard');
     Route::get('/index-2','dashboard_2')->name('dashboard_2');
     Route::get('/order-list','order_list')->name('order_list');
