@@ -17,7 +17,6 @@
 				</ul>
 
 			</li> -->
-			<li><a href="{{ url('add-blog')}}">Blog</a></li>
 			<!-- <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 				<i class="flaticon-050-info"></i>
 					<span class="nav-text">Apps</span>
