@@ -178,10 +178,10 @@
 				</ul>
 			</li> 
 		</ul>
-		<div class="plus-box">
+		<!-- <div class="plus-box">
 			<p class="fs-16 font-w500 mb-3">Ticket Sales Weekly Report</p>
 			<a class="text-white fs-14" href="{{ url('analytics') }}">Learn more</a>
-		</div>
+		</div> -->
 		<!-- <div class="copyright">
 			<p><strong>Ventic Ticketing Dashboard</strong> © 2024 All Rights Reserved</p>
 			<p class="fs-12">Made with <span class="heart"></span> by DexignZone</p>
