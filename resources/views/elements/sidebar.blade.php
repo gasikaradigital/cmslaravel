@@ -164,7 +164,7 @@
 				<ul aria-expanded="false">
 					<li><a href="{{ url('page-register') }}">Register</a></li>
 					<li><a href="{{ url('page-login') }}">Login</a></li>
-					<li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
+					<!-- <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
 						<ul aria-expanded="false">
 							<li><a href="{{ url('page-error-400') }}">Error 400</a></li>
                             <li><a href="{{ url('page-error-403') }}">Error 403</a></li>
@@ -174,7 +174,7 @@
 						</ul>
 					</li>
 					<li><a href="{{ url('page-lock-screen') }}">Lock Screen</a></li>
-					<li><a href="{{ url('empty-page') }}">Empty Page</a></li>
+					<li><a href="{{ url('empty-page') }}">Empty Page</a></li> -->
 				</ul>
 			</li> 
 		</ul>
