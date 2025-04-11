@@ -669,22 +669,22 @@
                                 </div>
 								</div>
 							</li> -->
-							<!-- <li class="nav-item dropdown notification_dropdown">
+							<li class="nav-item dropdown notification_dropdown">
 								<select class="language-btn default-select">
 								  <option data-display="ENGLISH">ENGLISH</option>
 								  <option value="1">FRANCE</option>
 								  <option value="2">CANADA</option>
 								  <option value="3">GERMAN</option>
 								</select>
-							</li> -->
+							</li>
                             <li class="nav-item dropdown header-profile">
-                                <!-- <a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
+                                <a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
 									<div class="header-info me-3">
 										<span class="fs-16 font-w600 ">James P. Sullivan</span>
 										<small class="text-end fs-14 font-w400">Super Admin</small>
 									</div>
                                     <img src="{{ asset('images/profile/pic1.jpg') }}" width="20" alt="">
-                                </a> -->
+                                </a>
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <a href="{{ url('app-profile') }}" class="dropdown-item ai-icon">
                                         <svg id="icon-user1" xmlns="http://www.w3.org/2000/svg" class="text-primary" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
