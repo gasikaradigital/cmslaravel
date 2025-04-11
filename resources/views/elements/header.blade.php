@@ -511,7 +511,7 @@
 							</div>
                         </div> -->
                         <ul class="navbar-nav header-right">
-							<li class="nav-item"><a href="{{ url('dashboard')}}">Accueil</a></li>
+							<li class="nav-item"><a href="{{ url('index')}}">Accueil</a></li>
 							<li class="nav-item"><a href="{{ url('event')}}">Evènement</a></li>
 							<li class="nav-item"><a href="{{ url('app-profile')}}">Profile</a></li>
 							<li class="nav-item dropdown notification_dropdown">
