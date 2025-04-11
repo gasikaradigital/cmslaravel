@@ -6,8 +6,7 @@
             <div class="col-xl-12">
                 <div class="auth-form">
                     <div class="text-center mb-3">
-                        <a href="{{ url('index') }}" class="text-4xl font-bold text-gray-900 hover:text-indigo-600 transition duration-300">
-                            CMSLARAVEL</a>
+                        <a href="{{ url('index') }}" class="logo-text">CMSLARAVEL</a>
                     </div>
                     <h4 class="text-center mb-4">Sign up your account</h4>
                     <form action="{{ url('index') }}">

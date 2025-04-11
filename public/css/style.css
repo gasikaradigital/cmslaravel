@@ -34251,4 +34251,17 @@ i.ti-plus {
     [data-theme-version="dark"] .footer .copyright a {
       color: #fff; }
 
+.logo-text {
+  font-size: 40px;        /* plus grand */
+  font-weight: bold;      /* en gras */
+  color: #000000;         /* noir */
+  text-decoration: none;  /* pas de soulignement */
+  transition: color 0.3s;
+}
+  
+.logo-text:hover {
+  color: #1e3a8a;         /* bleu foncé au survol */
+}
+
+  
 /*# sourceMappingURL=style.css.map */
