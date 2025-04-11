@@ -1,8 +1,8 @@
 <div class="deznav">
 	<div class="deznav-scroll">
 		<ul class="metismenu" id="menu">
-			
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+			<li><a href="{{ url('event')}}">Event</a></li>
+			<!-- <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 					<i class="flaticon-025-dashboard"></i>
 					<span class="nav-text">Dashboard</span>
 				</a>
@@ -16,8 +16,9 @@
 					<li><a href="{{ url('reviews') }}">Reviews</a></li>	
 				</ul>
 
-			</li>
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+			</li> -->
+			<li><a href="{{ url('blog')}}">Blog</a></li>
+			<!-- <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 				<i class="flaticon-050-info"></i>
 					<span class="nav-text">Apps</span>
 				</a>
@@ -44,8 +45,8 @@
 						</ul>
 					</li>
 				</ul>
-			</li>
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+			</li> -->
+			<!-- <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 					<i class="flaticon-033-feather"></i>
 					<span class="nav-text">Icons</span>
 				</a>
@@ -54,8 +55,8 @@
 					<li><a href="{{ url('svg-icons') }}">SVG Icons</a></li>
 					<li><a href="{{ url('feather') }}">Feather Icons</a></li>
 				</ul>
-			</li>
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+			</li> -->
+			<!-- <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 					<i class="flaticon-018-clock"></i>
 					<span class="nav-text">CMS</span>
 				</a>
@@ -69,8 +70,17 @@
 					<li><a href="{{ url('add-blog') }}">Add Blog</a></li>
 					<li><a href="{{ url('blog-category') }}">Blog Category</a></li>	
 				</ul>
+			</li> -->
+			<li><a href="{{ url('app-profile')}}">Profile</a></li>
+			<li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Email</a>
+				<ul aria-expanded="false">
+					<li><a href="{{ url('email-compose') }}">Compose</a></li>
+					<li><a href="{{ url('email-inbox') }}">Inbox</a></li>
+					<li><a href="{{ url('email-read') }}">Read</a></li>
+				</ul>
 			</li>
-			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+			<li><a href="{{ url('app-calender') }}">Calendar</a></li>
+			<!-- <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 					<i class="flaticon-041-graph"></i>
 					<span class="nav-text">Charts</span>
 				</a>
@@ -146,7 +156,7 @@
 					<li><a href="{{ url('table-bootstrap-basic') }}">Bootstrap</a></li>
                     <li><a href="{{ url('table-datatable-basic') }}">Datatable</a></li>
 				</ul>
-			</li>
+			</li> -->
 			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 					<i class="flaticon-022-copy"></i>
 					<span class="nav-text">Pages</span>
@@ -166,7 +176,7 @@
 					<li><a href="{{ url('page-lock-screen') }}">Lock Screen</a></li>
 					<li><a href="{{ url('empty-page') }}">Empty Page</a></li>
 				</ul>
-			</li>
+			</li> 
 		</ul>
 		<div class="plus-box">
 			<p class="fs-16 font-w500 mb-3">Ticket Sales Weekly Report</p>
